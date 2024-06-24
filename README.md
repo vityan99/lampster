@@ -11,10 +11,10 @@ Lampster - это проект интернет-магазина, специал
 - Popup с характеристиками/фото товара
 - Добавление/удаление товара в корзину
 
-## Карта компонентов:
+## Карта компонентов
 ![lampster component-instruction](https://github.com/vityan99/lampster/blob/main/Instructions-on-the-components-of-the-project.png)
 
-## Preview:
+## Preview
 ![lampster preview-1](https://github.com/vityan99/lampster/blob/main/preview-1.png)
 ![lampster preview-2](https://github.com/vityan99/lampster/blob/main/preview-2.png)
 ![lampster preview-3](https://github.com/vityan99/lampster/blob/main/preview-3.png)
