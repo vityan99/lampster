@@ -85,14 +85,6 @@ export class CartPanel {
     );
   }
 
-  _addListeners() {
-    document.body.addEventListener("addToCart", (e) => {
-      this._setStateAllProducts(e.detail);
-      this._setStateTotalInfoHandler(this._getTotal());
-      this._render();
-    });
-  }
-
   _generateCartItem() {
     return this._state.filteredProducts.map(({ productId, img, title, price, wattsId, colorId, count }) => {
       return new this._CartItem(
@@ -107,6 +99,14 @@ export class CartPanel {
         count,
         this._setStateDeletedProductHandler.bind(this)
       ).element;
+    });
+  }
+
+  _addListeners() {
+    document.body.addEventListener("addToCart", (e) => {
+      this._setStateAllProducts(e.detail);
+      this._setStateTotalInfoHandler(this._getTotal());
+      this._render();
     });
   }
 
